@@ -1,0 +1,46 @@
+body {
+  height: auto;
+  width: auto;
+ background-image:url(https://images7.alphacoders.com/796/thumb-1920-796109.jpg);
+}
+
+h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 90px;
+  color: white;
+  text-align: center;
+  text-shadow: 0.1em 0.1em 0.2em rgba(255, 255, 255, 0.52);
+}
+
+section {
+ display:-webkit-flex;
+ margin: 20px;
+ width: 85%;
+ height: 200px;
+ background-color: transparent;
+ background-color: rgba(80, 10, 77, 0.733);
+ border: solid 1px rgba(80, 10, 77, 0.733);;
+ border-radius: 10px;
+ box-shadow: 0 8px 32px 0 rgb(80, 10, 76);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  
+}
+
+p {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  position: relative;
+  height: 50px;
+  margin: 20px;
+  color: white;
+}
+  
+
+
+ 
+ 
